@@ -12,7 +12,7 @@ biological mechanisms underlying airway diseases and responses to treatments.
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Statistical Analysis](#statisticalanalysis)
+- [Statistics](#Statistics)
 - [Results](#results)
 - [Contribution](#contribution)
 
@@ -60,7 +60,7 @@ data(airway)
 head(airway)
 ```
 
-### Installation and setup
+### Installation
 
 **Prerequisites**
 Install the following R packages:
@@ -99,7 +99,7 @@ source("project_analysis.R")
 4. **Customizing Parameters**
 - You can modify the script to analyze specific genes or change visualization styles.
 
-### Statistical Analysis
+### Statistics
 
 Statistical analysis were performed to determine the differences in gene expression between the treatment groupts(**treated**
 and **untreated**) and to identify trends or patterns in the data.
@@ -143,7 +143,23 @@ stat_compare_means(aes(label=..p.sigif..), method="t.test")
 
 !![GeneTreatmentBoxplot](https://github.com/user-attachments/assets/f02bf9b3-c740-4a77-8e61-a0316a180632)
 
+### Contribution
 
+We welcome contributions to improve this project.  Here's how you can contribute:
+
+1. **Report Bugs**
+   - If you encounter any issues, please create a new issues in the **Issues** tab
+
+2. **Submit Enhancements**
+   - Fork the repository:
+     ```bash
+     git fork https://github.com/KARTHIK-YOGANANTHAM/AirwayGeneExpressionAnalysis.git
+     ```
+   - create a pull request with a detailed description of your changes
+  
+### Contact
+
+For any questions, contact me via email: karthikyoganantham23@gmail.com
   
 
 
