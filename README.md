@@ -110,7 +110,7 @@ and **untreated**) and to identify trends or patterns in the data.
 ```R
 stat_compare_means(aes(label=..p.sigif..), method="t.test")
 ```
-  - *  = p<_0.05
+  -  * = p<_0.05
   - ** = p<_0.01
   - *** = p<_0.001
   - **** = p<-0.0001
