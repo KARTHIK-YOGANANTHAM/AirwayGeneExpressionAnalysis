@@ -72,7 +72,7 @@ Install the following R packages:
 
 **Steps for Installation**
 1. Clone this repository
-```bash git clone https://github.com/KARTHIK-YOGANANTHAM/GeneExpressionProjects.git
+```bash git clone https://github.com/KARTHIK-YOGANANTHAM/AirwayGeneExpressionAnalysis.git
 ```
 2. Open the R script file (project_analysis.R) in RStudio
 3. Install the required package and datasets as mentioned in [Dataset](#dataset)
